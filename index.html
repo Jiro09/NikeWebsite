@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    
+    <nav>
+        <div class="logo" >
+            <img src="nike-logo-png-shoes-brand-17.png" alt="Nike Logo">
+        </div>
+
+        <ul>
+            <li><a href="#Home">Home</a></li> 
+            <li><a href="#About">About</a></li> 
+            <li><a href="#Blog">Blog</a></li> 
+            <li><a href="#Contact">Contact</a></li> 
+        </ul>  
+
+        <div class="icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-bag-shopping"></i>
+        </div>
+    </nav>
+
+    <section>
+
+        <div class="overlay"></div>
+        <div class="main">  
+            <h1>Just Do It</h1>
+            <p>Your journey to greatness starts with the perfect gear. Explore the latest collection designed for peak performance.</p>
+        </div>
+
+    </section>
+
+<!--ABOUT PAGE-->
+<div class="about" id="About">
+    <div class="about_main">
+        <div class="image">
+            <img src="about.png" alt="Nike Image">
+        </div>
+
+        <div class="about_text">
+            <h1><span>About</span> Nike</h1>
+            <h3>History</h3>
+            <p>
+                Since 1964, <strong>Nike</strong> has redefined sportswear and athletic gear,  
+                pushing the limits of innovation and style. From its humble beginnings  
+                as "Blue Ribbon Sports" to becoming a global powerhouse,  
+                Nike continues to inspire athletes across the world.  
+                <br><br>
+                <span class="highlight">"Just Do It."</span> This isn't just a slogan—it's a movement,  
+                a call to action for dreamers, athletes, and visionaries alike.  
+            </p>
+            <a href="#" class="btn">Explore More</a>
+        </div>
+    </div>
+</div>
+<!--blog-->
+
+<div class="blog-section" id="Blog">
+    <h2>Nike Shoes</h2>
+    <div class="blog-grid">
+        <!-- Top Row -->
+        <div class="blog-card" onclick="expandCard(this)" data-content="The Nike Vomero 18 evolves the series from previous iterations with a new level of comfort and maximum cushioning. The design is informed by insights from female runners, with a high-stack and high-cushion experience that allows you to feel light on your feet.">
+            <img src="latest.png" alt="Latest Sneaker Trends">
+            <h3>Latest Nike Shoe</h3>
+            <p>A short description about the Nike Vomero 18.</p>
+        </div>
+
+        <div class="blog-card" onclick="expandCard(this)" data-content="In 1989, Universal Pictures released a classic sci-fi film starring Michael J. Fox to widespread acclaim. In the movie, the main character gets a pair of power-lacing sneakers, dubbed the Nike Mag. At the time, the kicks weren't self-lacing, though. During the movie shoot, someone had to crouch in the background and pull strings from behind to give the shoe the appearance of auto-lacing. Decades later, as Nike continued to innovate, the movie inspired the launch of special-edition Nike Mag shoes available to the public. But only 1500 pairs are made.">
+            <img src="rarest.png" alt="Rarest Shoes Ever Made">
+            <h3>Rarest Nike Shoe</h3>
+            <p>A short description about rare Nike shoes.</p>
+        </div>
+
+        <div class="blog-card" onclick="expandCard(this)" data-content="The Off-White x Nike Air Force 1 is part of The Ten, a 2017 collaboration between Nike and Off-White, led by designer Virgil Abloh. This project reimagined ten iconic Nike sneakers, including the Air Force 1, by deconstructing and reconstructing them with unique design elements.  Abloh's approach to the Air Force 1 involved subtle alterations that maintained its classic form. He removed the traditional Nike Swoosh logos, reattached them with exposed stitching, and added signature Off-White touches like quotation marks around AIR on the midsole and a zip-tie tag. The initial release featured an all-white colorway, later followed by all-black and all-volt versions.">
+            <img src="collaborations.png" alt="Iconic Collaborations">
+            <h3>Collaboration Nike Shoe</h3>
+            <p>Discover legendary sneaker collabs.</p>
+        </div>
+
+        <!-- Bottom Row -->
+        <div class="blog-card" onclick="expandCard(this)" data-content="Prince Christian
+        The Nike Air Force 1, designed by Bruce Kilgore and released in 1982, is one of the most iconic sneakers in Nike's history. It was the first basketball shoe to incorporate Nike's Air technology, providing enhanced cushioning and support for players. Available in low, mid, and high-top styles, the AF1 is renowned for its versatility, with the solid white and black versions being particularly popular. Quickly transcending its original purpose, the Air Force 1 became a staple in streetwear and hip-hop culture, earning the nickname Uptowns in urban areas like Harlem during the mid-1980s. With over 1,700 color variations produced, it has become a favorite among sneaker collectors, generating significant revenue approximately $800 million annually by 2007. Nike's marketing strategy, emphasizing grassroots promotion and collaborations with influential figures in music and fashion, has kept the AF1 relevant for decades. Today, it remains a top seller for Nike, reflecting its enduring appeal as both a performance shoe and a fashion statement.">
+            <img src="popular.png" alt="Shoe Evolution Over Time">
+            <h3>Most Popular Nike Shoe</h3>
+            <p>Explore Nike's most popular shoes over time.</p>
+        </div>
+
+        <div class="blog-card" onclick="expandCard(this)" data-content="
+        Sneakers in 2024 was the Travis Scott x Air Jordan 1 Low OG “Medium Olive.” This sneaker left its sneakers on the radar and became a staple in pop culture fashion, being worn by celebrities, casuals, and sneakerheads alike. To summarize, it was far more than just a movement, but a sensation. (Sports Illustrated, 2024) 
+        
+        What Comes With a Celebrity Endorsement 
+        
+        What made the Medium Olive so appealing? To begin, Scott’s infamous reverse Swoosh gave it a proper identity. Subsequently, the olive green suede combined with the pre aged detailing struck the perfect blend of modern and retro. Unlike most hyped sneakers which look better reserved rather than worn, these were made for the streets. Funcional enough to wear all day out and stylish enough to match any outfit.
+        .">
+            <img src="used.png" alt="Most Influential Sneakers">
+            <h3>Most Used Nike Shoe</h3>
+            <p>The most used Nike shoes in history.</p>
+        </div>
+
+        <div class="blog-card" onclick="expandCard(this)" data-content="The Dynasty Collection isn’t made out of a single shoe, but a collection of six Air Jordans worn by the GOAT himself, Michael Jordan, during his six championship winning games.
+        Let’s break it down:
+        These aren’t random assortments of kicks. We’re talking about the actual shoes MJ laced up while making history. Each pair carries weight, sweat and pure unadulterated dominance of Michael Jordan.
+        That’s right, The Dynasty Collection is sold at Sotheby’s for 8 Million dollars. At 8 million dollars this collection redefined what it means to own a piece of sneaker history. This is not a shoe, this is a tangible piece of sports legend.
+        Why so much? 
+        Historical significance, these are more than just shoes, they're artifacts. They are the pinnacle of basketball achievement.
+        Rarity, game worn Jordans, from championship games are already incredibly scarce. A collection of 6 though? Practically mythical.
+        Cultural Impact: There is no denying Jordan’s influence. These shoes and other brands equally trend, manifesting those times.
+        Just imagine having in your possession a sneaker that was worn during those iconic matches. That is similar to having a fragment of bubonic masterpiece for basketball enthusiasts.
+        Not only do these sneakers validate the proposition, but they are also a testament to culture. Indeed, sneakers are no longer just items of attire; they have metamorphosed into pieces of investment and art.
+        Thus, even though we may never be able to claim a fragment of The Dynasty Collection, we can at least revere the collection in its unique stature as one of the most influential sneakers.
+        Keep an eye out for sizzling sneaker updates, and as always, keep your sneakers spotless!">
+            <img src="expensive.png" alt="The Science Behind Comfort">
+            <h3>Most Expensive Nike Shoe</h3>
+            <p>A look at the most expensive Nike sneakers.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Expanded Card Modal -->
+<div id="expanded-card" class="expanded-card">
+    <div class="expanded-content">
+        <span class="close-btn" onclick="closeCard()">&times;</span>
+        <h3 id="expanded-title"></h3>
+        <p id="expanded-text"></p>
+    </div>
+</div>
+
+<script src="script.js"></script> 
+
+<!--group members-->
+
+<section class="group-members">
+    <h2>Our Group Members</h2>
+    <div class="member-grid">
+        <div class="member-card">
+            <img src="jiro.png" alt="Jiro">
+            <h3>Jiro Villanueva</h3>
+            <div class="member-info">
+                <p>Email: Jirovillanueva915@gmail.com</p>
+                <p>Phone: 09619518283</p>
+                <a href="https://www.facebook.com/share/1KGAUMuN1Y/?mibextid=wwXIfr" target="_blank">Facebook</a>
+            </div>
+        </div>
+        <div class="member-card">
+            <img src="shian.png" alt="Jiro">
+            <h3>Shian Gamilong</h3>
+            <div class="member-info">
+                <p>Email: shiangamilong8@gmail.com</p>
+                <p>Phone: 09993647322</p>
+                <a href="https://www.facebook.com/shian.gamilong.7/" target="_blank">Facebook</a>
+            </div>
+        </div>
+        <div class="member-card">
+            <img src="kel.png" alt="Jiro">
+            <h3>Kel Piamonte</h3>
+            <div class="member-info">
+                <p>Email: mikelpiamonte0113@gmail.com</p>
+                <p>Phone: 09065561997</p>
+                <a href="https://www.facebook.com/share/18jLXQsn3o/?mibextid=wwXIfr" target="_blank">Facebook</a>
+            </div>
+        </div>
+        <div class="member-card">
+            <img src="prince.png" alt="Jiro">
+            <h3>Prince Quirona</h3>
+            <div class="member-info">
+                <p>Email: princequirona168@gmail.com </p>
+                <p>Phone: 09292230477</p>
+                <a href="https://www.facebook.com/share/15DRHo83h6/" target="_blank">Facebook</a>
+            </div>
+        </div>
+        <div class="member-card">
+            <img src="michael guinez.png" alt="Jiro">
+            <h3>michael guinez</h3>
+            <div class="member-info">
+                <p>Email: Guinezmichael3@gmail.com</p>
+                <p>Phone: 09984623044</p>
+                <a href="https://www.facebook.com/michael.guinez.9#" target="_blank">Facebook</a>
+            </div>
+        </div>
+        <div class="member-card">
+            <img src="jess.png" alt="Jiro">
+            <h3>Jess Mantes</h3>
+            <div class="member-info">
+                <p>Email: Jessandremantes13@gmail.com</p>
+                <p>Phone: 099 5140 6079</p>
+                <a href="https://www.facebook.com/share/15qvJutmie/" target="_blank">Facebook</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--contactts-->>
+
+
+<section id="Contact" class="contact-section">
+    <div class="contact-container">
+        <div class="contact-form-container">
+            <h2>Send your request</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="jiro pogi" required>
+                    </div>
+                    <div>
+                        <label for="phone">Phone</label>
+                        <input type="text" id="phone" name="phone" placeholder="+63 123 456 7890">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="jiropogi@gmail.com" required>
+                    </div>
+                    <div>
+                        <label for="subject">comments</label>
+                        <input type="text" id="subject" name="comments" placeholder="">
+                    </div>
+                </div>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Your Message" rows="4" required></textarea>
+                <button type="submit">SEND</button>
+            </form>
+        </div>
+        <div class="contact-info-container">
+            <h2>Reach Us</h2>
+            <p><strong>Email:</strong> jirovillanueva915@gmail.com</p>
+            <p><strong>Phone:</strong> 09619518283</p>
+            <p><strong>Address:</strong> Sitio Pasal, brgy. Pinagdanlayan<br>Dolores, Quezon</p>
+        </div>
+    </div>
+</section>
+
+<!--footer-->
+<footer>
+    <div class="footer-container">
+        <div class="footer-section">
+            <h3>Contact Us</h3>
+            <p>Email: jirovillanueva915@gmail.com</p>
+            <p>Phone: 09619518283</p>
+            <p>Address: sitio pasal, brgy pinagdanlayan dolores quezon</p>
+        </div>
+
+        <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+
+                <a href="https://www.facebook.com/je.wonnii/"><i class="fab fa-facebook"></i></a> 
+                <a href="https://www.instagram.com/wonjiroo/"><i class="fab fa-instagram"></i></a>
+               
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2025 Your Company. All rights reserved.</p>
+    </div>
+</footer>
+
+<!-- FontAwesome for Icons -->
+<script src="https://kit.fontawesome.com/yourkit.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
